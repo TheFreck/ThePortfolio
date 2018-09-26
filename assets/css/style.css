@@ -1,0 +1,111 @@
+body{
+    background: tan;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 1px;
+    background: brown;
+}
+p{
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.navContainer{
+    grid-template-columns: 25% 50% 25%;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    display: grid;
+    z-index: 2;
+}
+.navItem{
+    position: relative;
+    border-radius: 20%;
+    background: darkolivegreen;
+    display: inline-grid;
+    background-image: linear-gradient(rgb(146, 93, 33) 10%, rgb(204, 157, 85) 30%, rgb(56, 1, 1) 75%)
+}
+.logo{
+    color: orangered;
+    margin: 5px auto;
+    display: inline-block;
+    top: -65px;
+    width: 80%;
+    text-align: center;
+}
+.title{
+    color: orangered;
+    margin: 5px auto;
+    display: inline-block;
+    top: -65px;
+    width: 80%;
+    text-align: center;
+}
+.linkItems{
+    position: relative;
+    margin: 5px auto;
+    display: block;
+    top: -65px;
+    width: 80%;
+    text-align: center;
+}
+.links{
+    color: orangered;
+    padding: 2%;
+    display: block;
+    margin: 10px 20px;
+    bottom: 10px;
+}
+.bod{
+    position: relative;
+    border: ridge;
+    background: rgb(167, 137, 98);
+    margin: 150px auto 0 auto;
+}
+.profileBod{
+    width: 1200px;
+    height: 800px;
+}
+.otherOne{
+    width: 400px;
+    height: 2500px;
+}
+
+#myName{
+    font-size: 48px;
+    margin: 35px auto;
+}
+#profile,
+#contact,
+#portfolio{
+    font-size: 32px;
+    margin: 35px auto;
+}
+#profileLink,
+#contactLink{
+    font-size: 16px;
+}
+#profileLink:hover,
+#contactLink:hover{
+    font-size: 26px;
+}
+#portfolioLink{
+    font-size: 22px;
+    margin: 0 auto;
+    width: 100%;
+}
+#portfolioLink:hover{
+    font-size: 32px;
+}
+#profileLink{
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%;
+}
+#contactLink{
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%;
+}
