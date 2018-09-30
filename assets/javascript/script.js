@@ -1,11 +1,11 @@
 var hoverText = "";
 
-$(".logo").hover(function(){
-    hoverText = $(".logo").text();
+$(".myName").hover(function(){
+    hoverText = $(this).text();
     console.log("hoverText",hoverText);
-    $("#myName").text("The Freck");
+    $(this).text("Freck");
 }, function(){
-    $("#myName").text(hoverText);
+    $(this).text(hoverText);
 });
 
 $("#profile").hover(function(){
@@ -32,3 +32,19 @@ $("#portfolio").hover(function(){
     $("#portfolio").text(hoverText);
 });
 
+
+
+/* To Do List
+
+update resume
+get a photo
+do some bad ass jquery shit magick
+fix the screen width on mobile
+make the middle bubble say the name of the section of the resume
+
+
+
+
+
+
+*/
