@@ -1,4 +1,4 @@
-body{
+.background{
     background-image: url("../../assets/images/4k-monument-valley-desert-mountains-cliffs.jpg");
     height: 100%;
     background-position: center;
@@ -67,7 +67,6 @@ li{
     font-size: 22px;
 }
 .linkedIn{
-    margin-left: 3%;
     background: url("../images/In-2CRev-34px-R.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -76,18 +75,19 @@ li{
     height: 24px;
     position: relative;
     display: inline-block;
-}
-.vitalLinkedIn{
-    background: red;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    
+    right: 0;
 }
 .tm{
     font-size: 12px;
     position: relative;
     display: inline-block;
+    left: 0;
+    font-weight: bold;
+}
+.linked{
+    position: relative;
+    right: 0;
+    font-weight: bold;
 }
 .gitHub{
     background: url("../images/Octocat.png");
@@ -202,6 +202,17 @@ li{
 .contact{
     text-align: center;
     margin: 0 auto 5% auto;
+    padding: 0;
+}
+.socialTop{
+
+}
+.socialBottom{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 40%;
+    padding: 0;
 }
 
 
@@ -212,36 +223,33 @@ li{
     .max{
         display: none;
     }
-    .navContainer{
-        display: none;
-    }
-    .card{
-        display: block;
-    }
     .profilePic{
-        margin-top: 10%;
-        width: 96%;
+        margin-top: 20%;
+        left: -10%;
+        width: 120%;
+        height: 100%;
     }
     .myName{
-        font-size: 128px;
+        font-size: 190%;
     }
     .title{
-        font-size: 64px;
+        font-size: 150%;
+        margin: 0;
+        padding: 0;
     }
-    .vital{
-        margin: 15% 10%;
+    .vitals{
+        margin-top: 15%;
     }
     .vitalTitle{
-        font-size: 70px;
+        font-size: 150%;
     }
     .email,
-    .linkedIn,
     .portfolio{
-        font-size: 84px;
-        position: absolute;
+        position: relative;
+        display: block;
     }
     .portfolio{
-        font-size: 84px;
+        font-size: 150%;
         position: absolute;
         width: auto;
         height: auto;
@@ -251,24 +259,38 @@ li{
     .bod{
         margin: 0;
         width: 100%;
+        opacity: .9;
     }
     .sectionHead{
-        font-size: 128px;
+        font-size: 150%;
     }
     .vitalData{
-        font-size: 90px;
-        padding: 0 25%;
+        font-size: 100%;
     }
     .card{
+        display: block;
         width: 100%;
+        margin: 0;
+        padding: 0;
         position: relative;
-        display: inline-block;
     }
+    .vital{
+        margin: 0;
+    }
+    .socialBottom{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .edList{
+        font-size: 110%;
+        margin: 5%;
+    }
+
     
     p{
-        font-size: 84px;
+        font-size: 100%;
         margin: 0 5%;
-        color: lightgray;
         opacity: .6;
     }
 }
