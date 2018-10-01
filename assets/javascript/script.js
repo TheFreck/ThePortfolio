@@ -8,6 +8,9 @@ $(".myName").hover(function(){
     $(this).text(hoverText);
 });
 
+
+
+
 $("#profile").hover(function(){
     hoverText = $("#profile").text();
     console.log("hoverText",hoverText);
@@ -40,7 +43,6 @@ update resume
 get a photo
 do some bad ass jquery shit magick
 fix the screen width on mobile
-make the middle bubble say the name of the section of the resume
 
 
 
