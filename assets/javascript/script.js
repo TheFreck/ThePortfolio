@@ -1,12 +1,12 @@
 var hoverText = "";
 
-$(".myName").hover(function(){
-    hoverText = $(this).text();
-    console.log("hoverText",hoverText);
-    $(this).text("Freck");
-}, function(){
-    $(this).text(hoverText);
-});
+// $(".myName").hover(function(){
+//     hoverText = $(this).text();
+//     console.log("hoverText",hoverText);
+//     $(this).text("Freck");
+// }, function(){
+//     $(this).text(hoverText);
+// });
 
 
 
